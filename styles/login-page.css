@@ -23,7 +23,7 @@ body {
 }
 
 /* Intro text */
-.intro-text {
+.intro-text, .other-text {
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
@@ -32,11 +32,18 @@ body {
 
 /* Login form properties */
 .login-section {
-    background-color: white;
+    background-color: #FFB80C;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    border: 3px solid #FFB80C;
+    border-radius: 20px;
 }
 
 .login-form {
-    
+    padding-top:1px;
+    padding-bottom: 1px;
 }
 
 #username, #password, #key {
