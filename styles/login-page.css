@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner properties */
+.header-banner {
+    background-color: #FFB80C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;    
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    display: flexbox;
+    text-align: center;
+}
+
+/* Intro text */
+.intro-text {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #1aff00;
+}
+
+/* Login form properties */
+.login-section {
+    background-color: white;
+}
+
+.login-form {
+    
+}
+
+#username, #password, #key {
+    border-radius: 3px;
+    border: 1px solid;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.login-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}

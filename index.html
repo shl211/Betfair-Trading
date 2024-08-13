@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="styles/login-page.css">
 </head>
 <body>
-    <h1>Betfair Trading</h1>
 
-    <p>This is the login page</p>
+    <div class="header-banner">
+        <p class="title">Betfair Trading</p>
+    </div>
 
-    <form>
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br>
-        <label for="password">Password:</label><br>
-        <input type="text" id="password" name="password"><br>
-        <label for="key">Key:</label><br>
-        <input type="text" id="key" name="key"><br>
-    </form>
+    <p class="intro-text">
+        This provides a portal to perform automated trading on the Betfair Exchange. It provides useful tools to help you make the most of your trading experience, including colourful analytics and a user-friendly interface.
+    </p>
 
-    <button>Login</button>
+
+    <div class="login-section">
+        <form class="login-form">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter username here..."><br>
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password" placeholder="Enter password here..."><br>
+            <label for="key">Betfair API Key:</label><br>
+            <input type="text" id="key" name="key" placeholder="Enter key here..."><br>
+        </form>
+    
+        <button class="login-button">Login</button>
+    </div>
 
 </body>
 </html>
