@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    
     <link rel="stylesheet" href="styles/login-page.css">
+    <script defer src="login.js"></script>
 </head>
 <body>
 
@@ -17,17 +19,17 @@
     </p>
 
     <div class="login-section">
-        <form class="login-form" action="">
+        <form class="login-form" action="/" method="get" id="form">
             <h1> Login </h1>
             
             <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username" placeholder="Username" required><br>
-            
+            <input type="text" id="username" name="username" placeholder="Username"><br>
+
             <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" placeholder="Password" required><br>
+            <input type="password" id="password" name="password" placeholder="Password"><br>
             
             <label for="key">Betfair API Key:</label><br>
-            <input type="text" id="key" name="key" placeholder="API Key" required><br>
+            <input type="text" id="key" name="key" placeholder="API Key"><br>
             
             <button type="submit" class="login-button">Login</button>
         </form>
